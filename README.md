@@ -44,7 +44,7 @@ This command configures the game for manual control in a specific layout.
 
 ### List of agents
 For the `<AGENT>` argument, the following agents are available:
-- KeyboardAgent (Manual control using WASD keys)
+- KeyboardAgent (Manual control using up, down, left, right keys)
 - PacmanTDQN
 
 
@@ -52,7 +52,9 @@ For the `<AGENT>` argument, the following agents are available:
 
 ### 1. Step limit
 To adjust the step limit, which controls the number of steps Pac-Man can take before the game terminates, modify the value in `game.py` at line 29. It is currently set to 1000.
-```STEPLIMIT = 1000```
+```
+STEPLIMIT = 1000
+```
 
 ### 2. Scores
 The scores for various game actions can be adjusted in `pacman.py`, from lines 55 to 60.
@@ -89,8 +91,8 @@ Define whether the model is in training or testing mode, specify paths for savin
 TRAINING_MODE = True
 ...
 # Path settings for saving and loading model weights
-save_path_targetqnet = 'saves/FC_NN/target_qnet' #filepath
-load_file_targetqnet = 'saves/originalClassic/CNN2/target_qnet/ckpt-81' #None or str: foldername/filename
+save_path_targetqnet = 'saves/FC_NN/target_qnet'
+load_file_targetqnet = 'saves/originalClassic/CNN2/target_qnet/ckpt-81'
 ```
 
 #### 3.4 Model Parameters
