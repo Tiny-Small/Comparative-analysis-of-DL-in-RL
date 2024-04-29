@@ -30,10 +30,10 @@ python3 pacman.py -p <AGENT> -n <NUM OF GAMES> -x <NUM OF TRAINING> -l <LEVEL NA
 python3 pacman.py -p PacmanTDQN -n 5 -x 5000 -l originalClassic
 ```
 Where
-`-p PacmanRNDQN` specifies the agent type.
-`-n 5` will display 5 games through the graphics.
-`-x 5000` sets the number of training games to 5000.
-`-l originalClassic` specifies the layout to be played. Details of each layout can be found in the layouts folder.
+- `-p PacmanTDQN` specifies the agent type.
+- `-n 5` will display 5 games through the graphics.
+- `-x 5000` sets the number of training games to 5000.
+- `-l originalClassic` specifies the layout to be played. Details of each layout can be found in the layouts folder.
 
 ### To Play the Game Interactively:
 You can also play the game interactively using the keyboard:
@@ -46,7 +46,6 @@ This command configures the game for manual control in a specific layout.
 For the `<AGENT>` argument, the following agents are available:
 - KeyboardAgent (Manual control using WASD keys)
 - PacmanTDQN
-
 
 
 ## For Finer Controls
@@ -110,18 +109,17 @@ Fine-tune model parameters such as batch size, memory size, learning rate, epsil
 ```
 
 
-### Requirements
+## Requirements
 ```
 python==3.10.6
 tensorflow==2.15.1
 Cython==3.0.10
 ```
 
-
-### Special Thanks
+## Special Thanks
 Special thanks to [r0b0pp1](https://github.com/r0b0pp1) for her contributions to the project.
 
 
-### Acknowledgements
+## Acknowledgements
 - **UC Berkeley**: [Project Overview: Berkeley AI Pac-Man Projects](http://ai.berkeley.edu/project_overview.html) (Accessed: 21 April 2024).
 - **Tycho van der Ouderaa (2016)**: *Deep Reinforcement Learning in Pac-man*. Bachelor Thesis, University of Amsterdam. [GitHub Project](https://github.com/tychovdo/PacmanDQN)
