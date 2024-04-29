@@ -92,7 +92,7 @@ TRAINING_MODE = True
 ...
 # Path settings for saving and loading model weights
 save_path_targetqnet = 'saves/FC_NN/target_qnet'
-load_file_targetqnet = 'saves/originalClassic/CNN2/target_qnet/ckpt-81'
+load_file_targetqnet = 'saves/originalClassic/CNN2/target_qnet/ckpt-50'
 ```
 
 #### 3.4 Model Parameters
