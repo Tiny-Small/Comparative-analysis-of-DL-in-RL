@@ -21,10 +21,14 @@ Future research will aim to explore the optimization of neural networks in diver
 
 ## How to run
 To run the game with specific configurations, use the following command format:
-```python3 pacman.py -p <AGENT> -n <NUM OF GAMES> -x <NUM OF TRAINING> -l <LEVEL NAME>```
+```
+python3 pacman.py -p <AGENT> -n <NUM OF GAMES> -x <NUM OF TRAINING> -l <LEVEL NAME>
+```
 
 ### Example command to start a game:
-```python3 pacman.py -p PacmanTDQN -n 5 -x 5000 -l originalClassic```
+```
+python3 pacman.py -p PacmanTDQN -n 5 -x 5000 -l originalClassic
+```
 Where
 `-p PacmanRNDQN` specifies the agent type.
 `-n 5` will display 5 games through the graphics.
@@ -33,7 +37,9 @@ Where
 
 ### To Play the Game Interactively:
 You can also play the game interactively using the keyboard:
-```python3 pacman.py -p KeyboardAgent -l smallClassic```
+```
+python3 pacman.py -p KeyboardAgent -l smallClassic
+```
 This command configures the game for manual control in a specific layout.
 
 ### List of agents
